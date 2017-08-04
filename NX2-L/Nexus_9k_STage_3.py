@@ -15,7 +15,7 @@ SHEET = SWITCH
 
 
 
-BASE_DIR = '/Users/aspera/Documents/Clienti/VF-2017/NMP/NA1C-C/' + SWITCH + '/Stage_3/'
+BASE_DIR = '/home/aspera/Documents/VF-2017/NMP/Sites/NA1C/' + SWITCH + '/Stage_3/'
 
 INPUT_XLS = BASE_DIR + SWITCH + '_OUT_DB_OPT.xlsx'
 OSW_CFG_TXT = BASE_DIR + SWITCH + '.txt'
@@ -23,7 +23,7 @@ OSWVCE_CFG_TXT = BASE_DIR + SWITCH + 'VCE' +'.txt'
 OSWVSW_CFG_TXT = BASE_DIR + SWITCH + 'VSW' +'.txt'
 
 OTHER_SWITCH = 'NAOSW136'
-OTHER_BASE_DIR = '/Users/aspera/Documents/Clienti/VF-2017/NMP/NA1C-C/' + OTHER_SWITCH + '/Stage_3/'
+OTHER_BASE_DIR = '/home/aspera/Documents/VF-2017/NMP/Sites/NA1C/' + OTHER_SWITCH + '/Stage_3/'
 OTHER_INPUT_XLS = OTHER_BASE_DIR + OTHER_SWITCH + '_OUT_DB_OPT.xlsx'
 OTHER_SHEET = OTHER_SWITCH
 

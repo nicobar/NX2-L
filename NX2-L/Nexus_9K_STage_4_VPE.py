@@ -1,5 +1,5 @@
 import ciscoconfparse as c
-import time
+# import time
 
 def create_if_subif_map():
     ''' from VPE.cfg returns {interface: dot1q_tags} '''
@@ -237,7 +237,7 @@ VPE_ROUTER =    'NAVPE113'
 VCE_SWITCH =    'NAVCE131'
 BRIDGE_NAME =   '10.192.10.8'
 
-BASE_DIR = '/Users/aspera/Documents/Clienti/VF-2017/Nexus_9K/NMP/SITES/NA1C/' + OSW_SWITCH + '/Stage_4/VPE/'
+BASE_DIR = '/home/aspera/Documents/VF-2017/NMP/Sites/NA1C/' + OSW_SWITCH + '/Stage_4/VPE/'
 
 #INPUT_XLS = BASE_DIR + OSW_SWITCH + '_OUT_DB_OPT.xlsx'
 
